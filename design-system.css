@@ -1,0 +1,52 @@
+/* ============================================================
+   DESIGN SYSTEM — Landingpages_v1
+   All design tokens as CSS custom properties.
+   Do not put layout or component rules here.
+   ============================================================ */
+
+/* --- Typography --- */
+/*
+  TWK Everett: drop .woff2 files into /fonts/ and uncomment below
+  to activate the real font.
+
+@font-face {
+  font-family: 'TWK Everett';
+  src: url('/fonts/TWKEverett-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TWK Everett';
+  src: url('/fonts/TWKEverett-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  /* Fonts */
+  --font-heading: 'TWK Everett', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Colors */
+  --color-black: #000000;
+  --color-subheading: #686868;
+  --color-border: #EAEBEF;
+  --color-bg-video: #F7F7F7;
+  --color-white: #FFFFFF;
+  --color-placeholder: #D5D5D5;
+
+  /* Layout */
+  --layout-padding-x: 64px;
+
+  /* Button */
+  --btn-font-size: 16px;
+  --btn-line-height: 16px;
+  --btn-padding-x: 32px;
+  --btn-padding-y: 6px;
+  --btn-border: 0.5px solid var(--color-black);
+}
