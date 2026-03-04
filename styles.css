@@ -36,6 +36,44 @@ body {
 }
 
 /* ─────────────────────────────────────────
+   NAVBAR RIGHT GROUP
+───────────────────────────────────────── */
+.navbar__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* ─────────────────────────────────────────
+   LANGUAGE SWITCHER
+───────────────────────────────────────── */
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.lang-switcher__item {
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  color: var(--color-subheading);
+  text-decoration: none;
+}
+
+.lang-switcher__item--active {
+  color: var(--color-black);
+}
+
+.lang-switcher__sep {
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 14px;
+  color: var(--color-subheading);
+}
+
+/* ─────────────────────────────────────────
    BUTTON — Demo buchen
 ───────────────────────────────────────── */
 .btn-demo {
