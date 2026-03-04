@@ -77,6 +77,7 @@ body {
    BUTTON — Demo buchen
 ───────────────────────────────────────── */
 .btn-demo {
+  display: inline-block;
   font-family: var(--font-body);
   font-size: var(--btn-font-size);
   line-height: var(--btn-line-height);
@@ -88,6 +89,7 @@ body {
   padding: var(--btn-padding-y) var(--btn-padding-x);
   cursor: pointer;
   white-space: nowrap;
+  text-decoration: none;
 }
 
 .btn-demo:hover {
