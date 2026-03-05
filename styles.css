@@ -220,8 +220,8 @@ body {
 
 .feature-row__heading {
   font-family: var(--font-heading);
-  font-size: 32px;
-  line-height: 36px;
+  font-size: 28px;
+  line-height: 32px;
   letter-spacing: 0;
   font-weight: 400;
   color: var(--color-black);
@@ -229,8 +229,8 @@ body {
 
 .feature-row__number {
   font-family: var(--font-heading);
-  font-size: 32px;
-  line-height: 36px;
+  font-size: 28px;
+  line-height: 32px;
   font-weight: 400;
   color: var(--color-black);
 }
@@ -250,7 +250,7 @@ body {
   letter-spacing: 0px;
   font-weight: 400;
   color: var(--color-subheading);
-  max-width: 388px;
+  max-width: 320px;
 }
 
 .feature-row__link {
