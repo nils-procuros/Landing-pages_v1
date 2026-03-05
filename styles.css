@@ -151,6 +151,10 @@ body {
 }
 
 /* Logo in navbar */
+.navbar__logo {
+  text-decoration: none;
+}
+
 .navbar__logo-img {
   display: block;
   height: 14px;
