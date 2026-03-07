@@ -56,7 +56,7 @@
       <!-- VIDEO / LOOM -->
       <div class="hero__video-wrapper">
         <div style="position: relative; padding-bottom: 56.25%; height: 0;">
-          <iframe src="https://www.loom.com/embed/017a97e41af94325a312c939eee440d3" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+          <iframe src="https://www.loom.com/embed/017a97e41af94325a312c939eee440d3" frameborder="0" allow="fullscreen" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
         </div>
       </div>
 
@@ -148,7 +148,7 @@
   </footer>
 
   <script>
-    document.querySelector('.hero__video-wrapper iframe').addEventListener('mousedown', function () {
+    document.querySelector('.hero__video-wrapper').addEventListener('click', function () {
       posthog.capture('loom_video_clicked', {
         video_url: 'https://www.loom.com/embed/017a97e41af94325a312c939eee440d3'
       })
