@@ -16,6 +16,19 @@
         cross_subdomain_cookie: true,
     })
   </script>
+  <script>
+    // Identify user from URL params (e.g. ?contact_email=...)
+    var params = new URLSearchParams(window.location.search);
+    var contactEmail = params.get('contact_email');
+    if (contactEmail) {
+      posthog.identify(contactEmail, {
+        email: contactEmail,
+        utm_source: params.get('utm_source'),
+        utm_medium: params.get('utm_medium'),
+        utm_campaign: params.get('utm_campaign'),
+      });
+    }
+  </script>
 </head>
 <body>
 
