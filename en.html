@@ -147,5 +147,12 @@
     <a href="#" class="footer__imprint">Imprint</a>
   </footer>
 
+  <script>
+    document.querySelector('.hero__video-wrapper').addEventListener('click', function () {
+      posthog.capture('loom_video_clicked', {
+        video_url: 'https://www.loom.com/embed/017a97e41af94325a312c939eee440d3'
+      })
+    })
+  </script>
 </body>
 </html>
