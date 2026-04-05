@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "personal-assistant": {
+      "source": "ailabs-393/ai-labs-claude-skills",
+      "sourceType": "github",
+      "computedHash": "5531e9c0663cae7be8431b30970b645fee68f52e53e4997684732b41c771e07e"
+    }
+  }
+}
