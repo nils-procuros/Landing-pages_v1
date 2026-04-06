@@ -32,7 +32,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 16px;
+  padding: 16px var(--layout-padding-x);
+  position: sticky;
+  top: 0;
+  background: var(--color-white);
+  z-index: 100;
 }
 
 /* ─────────────────────────────────────────
@@ -94,6 +98,15 @@ body {
 
 .btn-demo:hover {
   background: #f5f5f5;
+}
+
+.navbar .btn-demo {
+  background: var(--color-black);
+  color: var(--color-white);
+}
+
+.navbar .btn-demo:hover {
+  background: #222;
 }
 
 /* ─────────────────────────────────────────
